@@ -10,6 +10,14 @@ header{
 
 }
 
+header h1{
+
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+
+}
+
 body{
 
     width: 100%;
@@ -103,6 +111,10 @@ header{
 header nav{
 
     width: auto;
+    display: inline-block;
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
 
 }
 
@@ -148,6 +160,13 @@ ul{
 
 }
 
+main{
+
+    text-align: center;
+    width:100%;
+
+}
+
 main ul li{
 
     padding-bottom: 100px;
@@ -166,12 +185,11 @@ main ul li{
 
     margin: auto;
     text-align: left;
-    width: 40%;
-    transform: skewY(30);
+    width: 50%;
 
 }
 
-article{
+section{
 
     text-align: center;
 
@@ -209,4 +227,15 @@ footer{
 
 }
 
+#contact-button {
 
+    margin-bottom: 20px;
+
+}
+
+img{
+
+    width: 83%;
+    height: auto;
+
+}
