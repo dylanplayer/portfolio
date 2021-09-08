@@ -66,12 +66,14 @@ a{
 h1{
 
     font-size: 5vh;
+    font-weight: bold;
 
 }
 
 h2{
 
     font-size: 4vh;
+    line-height: normal;
 
 }
 
@@ -237,5 +239,15 @@ img{
 
     width: 83%;
     height: auto;
+
+}
+
+footer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
 
 }
